@@ -1,4 +1,4 @@
-package main
+package fullhous
 
 import (
 	"infohouse/infoAppliances"
@@ -7,7 +7,7 @@ import (
 	"infohouse/infofurniture"
 )
 
-func main() {
+func House() {
 
 	furniture := infofurniture.Furnitureitems()
 	rooms := infoRooms.RoomsItems()
